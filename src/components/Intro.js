@@ -4,12 +4,12 @@ const Intro = () => {
   return (
     <div className="intro">
       <img
-        src="./img/bg-pattern-intro-right-desktop.svg"
+        src={process.env.PUBLIC_URL + '/img/bg-pattern-intro-right-desktop.svg'}
         className="pattern-right"
         alt="Background Pattern Right"
       />
       <div className="mtop">
-        <img src="./img/image-intro-desktop.jpg" alt="people" className="introimg" />
+        <img src={process.env.PUBLIC_URL + '/img/image-intro-desktop.jpg'} alt="people" className="introimg" />
         <h1>Humanizing your insurance.</h1>
         <p>
           Get your life insurance coverage easier and faster. We blend our
@@ -19,7 +19,7 @@ const Intro = () => {
         <a href="#" className="btn">VIEW PLANS</a>
       </div>
       <img
-        src="./img/bg-pattern-intro-left-desktop.svg"
+        src={process.env.PUBLIC_URL + '/img/bg-pattern-intro-left-desktop.svg'}
         className="pattern-left"
         alt="Background Pattern Left"
       />

@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <img src="./img/logo.svg" alt="INSURE" />
+      <img src={process.env.PUBLIC_URL + '/img/logo.svg'} alt="INSURE" />
       <ul>
         <li><a href="#">HOW WE WORK</a></li>
         <li><a href="#">BLOG</a></li>
