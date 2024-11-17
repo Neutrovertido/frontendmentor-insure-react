@@ -218,3 +218,181 @@
         margin: 5px 0px;
     }
     
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+        header img {
+            width: 100px;
+            margin-left: 20px;
+        }
+    
+        header ul {
+            float: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        header li {
+            display: block;
+            margin: 10px 0;
+        }
+    
+        .intro {
+            padding: 60px 20px 300px 20px;
+        }
+    
+        .mtop h1 {
+            font-size: 2.5em;
+        }
+    
+        .introimg {
+            width: 100%;
+            height: auto;
+            float: none;
+            margin-top: 20px;
+        }
+    
+        .pattern-right, .pattern-left {
+            display: none;
+        }
+    
+        .line {
+            margin: 100px 20px 20px 20px;
+        }
+    
+        h2 {
+            padding: 20px 20px;
+            font-size: 2em;
+        }
+    
+        .quality {
+            flex-direction: column;
+            margin: 20px 0;
+        }
+    
+        .quality .container {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        .banner {
+            flex-direction: column;
+            background-position: center;
+            padding: 40px 20px;
+        }
+    
+        .banner h2 {
+            font-size: 1.8em;
+            text-align: center;
+        }
+    
+        .banner .btn {
+            margin: 20px 0;
+            min-width: 100px;
+        }
+    
+        footer {
+            padding: 40px 20px;
+        }
+    
+        .links {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .url-icons {
+            text-align: center;
+            float: none;
+        }
+    
+        .url-icons img {
+            margin: 10px;
+        }
+    
+        .links p, .links a {
+            font-size: 1em;
+        }
+    
+        .links .panel {
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .mtop h1 {
+            font-size: 2em;
+        }
+    
+        .introimg {
+            width: 100%;
+            height: auto;
+        }
+    
+        .pattern-right, .pattern-left {
+            display: none;
+        }
+    
+        .quality .container h3 {
+            font-size: 1.2em;
+        }
+    
+        .quality .container p {
+            font-size: 0.9em;
+        }
+    
+        .banner .btn {
+            font-size: 0.9em;
+        }
+    
+        .top-footer {
+            text-align: center;
+        }
+    }
+    
+    /* Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Other mobile styles */
+
+    .links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links .panel {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .links p, .links a {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .url-icons {
+        text-align: center;
+        float: none;
+    }
+
+    .url-icons img {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Other mobile styles */
+
+    .links {
+        text-align: center;
+    }
+
+    .links .panel {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .links p, .links a {
+        font-size: 1em;
+        text-align: center;
+    }
+}
