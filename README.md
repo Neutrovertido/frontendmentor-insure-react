@@ -23,7 +23,7 @@ This project is a landing page for an insurance company, showcasing a modern, cl
 
 ## Features
 
-- Responsive design.
+- Responsive design that works on mobile and desktop.
 - Modern layout with a desktop-first approach.
 - Clean UI with a focus on user experience.
 - Implemented with React for easy scalability and component management.
