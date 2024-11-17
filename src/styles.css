@@ -1,0 +1,220 @@
+/*     font-family: 'DM Serif Display', serif;
+    font-family: 'Karla', sans-serif; */
+
+    :root {
+        --f1: "DM Serif Display", serif;
+        --f2: "Karla", sans-serif;
+        --accent: #2c2640;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: var(--f2);
+    }
+    
+    header {
+        background-color: white;
+        padding: 30px 20px;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    html {
+        overflow-x: hidden;
+    }
+    
+    header img {
+        float: left;
+        margin-left: 50px;
+    }
+    
+    header ul {
+        float: right;
+        margin-right: 50px;
+    }
+    
+    header li {
+        display: inline;
+        margin: 0px 10px;
+    }
+    
+    header li a {
+        color: #404040;
+        font-weight: bold;
+    }
+    
+    .btn {
+        padding: 10px 30px;
+        font-weight: bolder;
+    }
+    
+    header .btn {
+        border: 2px solid var(--accent);
+        color: var(--accent);
+    }
+    
+    .intro {
+        background: var(--accent);
+        color: white;
+        overflow: visible;
+        padding: 80px 60px 400px 60px;
+    }
+    
+    .mtop {
+        float: left;
+        width: 100%;
+    }
+    
+    .mtop h1 {
+        font-family: var(--f1);
+        font-size: 3em;
+        margin-top: 30px;
+    }
+    
+    .mtop:before {
+        content: "";
+        position: absolute;
+        width: 150px;
+        border-bottom: 1px solid white;
+    }
+    
+    .mtop p {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .mtop .btn {
+        border: 2px solid white;
+        color: white;
+    }
+    
+    .introimg {
+        height: 500px;
+        float: right;
+        margin: 20px 0px 0px 10px;
+    }
+    
+    .pattern-right {
+        height: 50%;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        overflow: hidden;
+        background-image: url('../public/img/bg-pattern-intro-right-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .pattern-left {
+        height: 40%;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        bottom: 100px;
+        background-image: url('../public/img/bg-pattern-intro-left-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .line {
+        content: "";
+        border-top: 1px solid gray;
+        width: 150px;
+        margin: 300px 60px 20px 60px;
+    }
+    
+    h2 {
+        padding: 20px 60px 40px;
+        font-family: var(--f1);
+        font-size: 2.5em;
+        color: #303030;
+    }
+    
+    .container h3 {
+        font-family: var(--f1);
+        font-size: 1.5em;
+        margin: 20px 0px;
+    }
+    
+    .container p {
+        color: gray;
+    }
+    
+    .container {
+        padding: 0px 20px;
+    }
+    
+    .quality {
+        display: flex;
+        margin: 0px 60px;
+    }
+    
+    .banner {
+        margin: 100px 60px;
+        padding: 10px;
+        display: flex;
+        flex-basis: 50%;
+        align-items: center;
+        justify-content: space-around;
+        background-color: var(--accent);
+        background-image: url('../public/img/bg-pattern-how-we-work-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    .banner h2 {
+        color: white;
+    }
+    
+    .banner .btn {
+        border: 2px solid white;
+        color: white;
+        min-width: 120px;
+        margin-right: 60px;
+        margin-left: 80px;
+    }
+    
+    footer {
+        background-color: whitesmoke;
+        background-image: url('../public/img/bg-pattern-footer-desktop.svg');
+        background-repeat: no-repeat;
+        padding: 40px 60px;
+    }
+    
+    .top-footer {
+        padding-bottom: 20px;
+        border-bottom: 1px solid gray;
+    }
+    
+    .url-icons {
+        float: right;
+    }
+    
+    .url-icons img {
+        padding: 0px 5px;
+    }
+    
+    .links {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .links p {
+        margin: 20px 0px;
+        color: gray;
+        font-size: 0.9em;
+    }
+    
+    .links a {
+        color: var(--accent);
+        font-size: 0.9em;
+    }
+    
+    .links li {
+        margin: 5px 0px;
+    }
+    
