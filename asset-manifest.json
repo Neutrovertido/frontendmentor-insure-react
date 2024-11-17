@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/frontendmentor-insure-react/static/css/main.00a79d2c.css",
+    "main.css": "/frontendmentor-insure-react/static/css/main.4462aaf9.css",
     "main.js": "/frontendmentor-insure-react/static/js/main.f174158c.js",
     "static/media/bg-pattern-how-we-work-desktop.svg": "/frontendmentor-insure-react/static/media/bg-pattern-how-we-work-desktop.eb268c33d9921cd960db.svg",
     "static/media/bg-pattern-intro-left-desktop.svg": "/frontendmentor-insure-react/static/media/bg-pattern-intro-left-desktop.3a425b38f5531b055de4.svg",
     "static/media/bg-pattern-intro-right-desktop.svg": "/frontendmentor-insure-react/static/media/bg-pattern-intro-right-desktop.0c130b3f008bf9eb1d1b.svg",
     "static/media/bg-pattern-footer-desktop.svg": "/frontendmentor-insure-react/static/media/bg-pattern-footer-desktop.700c39ea607592bfacaf.svg",
     "index.html": "/frontendmentor-insure-react/index.html",
-    "main.00a79d2c.css.map": "/frontendmentor-insure-react/static/css/main.00a79d2c.css.map",
+    "main.4462aaf9.css.map": "/frontendmentor-insure-react/static/css/main.4462aaf9.css.map",
     "main.f174158c.js.map": "/frontendmentor-insure-react/static/js/main.f174158c.js.map"
   },
   "entrypoints": [
-    "static/css/main.00a79d2c.css",
+    "static/css/main.4462aaf9.css",
     "static/js/main.f174158c.js"
   ]
 }
