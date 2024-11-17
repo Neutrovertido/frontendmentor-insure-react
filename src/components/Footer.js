@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <footer>
       <div className="top-footer">
-        <img src="img/logo.svg" alt="INSURE" />
+        <img src="./img/logo.svg" alt="INSURE" />
         <div className="url-icons">
-          <a href="#"><img src="img/icon-facebook.svg" alt="Facebook" /></a>
-          <a href="#"><img src="img/icon-twitter.svg" alt="Twitter" /></a>
-          <a href="#"><img src="img/icon-pinterest.svg" alt="Pinterest" /></a>
-          <a href="#"><img src="img/icon-instagram.svg" alt="Instagram" /></a>
+          <a href="#"><img src="./img/icon-facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="./img/icon-twitter.svg" alt="Twitter" /></a>
+          <a href="#"><img src="./img/icon-pinterest.svg" alt="Pinterest" /></a>
+          <a href="#"><img src="./img/icon-instagram.svg" alt="Instagram" /></a>
         </div>
       </div>
       <div className="links">
